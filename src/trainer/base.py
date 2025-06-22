@@ -18,7 +18,7 @@ from transformers.integrations import (  # isort: split
 )
 from transformers import PretrainedConfig
 from transformers.data.data_collator import DataCollator, DataCollatorWithPadding, default_data_collator
-from transformers.deepspeed import deepspeed_init, is_deepspeed_zero3_enabled
+# from transformers.deepspeed import deepspeed_init, is_deepspeed_zero3_enabled
 from transformers.models.auto.modeling_auto import MODEL_FOR_CAUSAL_LM_MAPPING_NAMES, MODEL_MAPPING_NAMES
 from transformers.tokenization_utils_base import PreTrainedTokenizerBase
 from transformers.trainer_callback import (
