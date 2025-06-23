@@ -35,7 +35,7 @@ from transformers.utils import (
     is_sagemaker_mp_enabled,
     is_torch_tensorrt_fx_available,
     is_datasets_available,
-    is_torch_tpu_available,
+    # is_torch_tpu_available,
     is_torchdynamo_available,
     logging,
 )
